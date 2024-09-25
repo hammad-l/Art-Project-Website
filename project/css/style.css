@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.container {
+  width: 1100px;
+}
+
+.container-fluid {
+  width: 1366px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+  padding-top: 19px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.header .container .row .content-left {
+  padding-top: 40px;
+}
+.header .container .row .content-left ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+.header .container .row .content-left ul li {
+  margin-right: 10px;
+}
+.header .container .row .content-left ul li a {
+  position: relative;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #fff;
+  color: #fff;
+}
+.header .container .row .content-left ul li a:hover {
+  background: #ae15f5;
+  letter-spacing: 0.25em;
+  -webkit-box-shadow: 0 0 35px #9f10ff, 0 0 25px #9f10ff, 0 0 50px #9f10ff, 0 0 200px #9f10ff;
+          box-shadow: 0 0 35px #9f10ff, 0 0 25px #9f10ff, 0 0 50px #9f10ff, 0 0 200px #9f10ff;
+  color: #e513ec;
+}
+.header .container .row .content-left ul li a::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #084f88;
+}
+.header .container .row .content-left ul li a span {
+  position: relative;
+  z-index: 1;
+}
+.header .container .row .content-left ul li a i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+.header .container .row .content-left ul li a i:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 10px;
+  height: 4px;
+  background: -webkit-gradient(linear, left top, right top, from(transparent), to(#27282c));
+  background: linear-gradient(90deg, transparent, #27282c);
+  -webkit-transform: translateX(-50%) skewX(325deg);
+          transform: translateX(-50%) skewX(325deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.header .container .row .content-left ul li a i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+.header .container .row .content-left ul li a i:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 10px;
+  height: 4px;
+  background: #27282c;
+  -webkit-transform: translateX(-50%) skewX(325deg);
+          transform: translateX(-50%) skewX(325deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.banner .banner-img {
+  background-image: url(/images/pexels-zaksheuskaya-709412-1616403.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  background-position: center;
+}
